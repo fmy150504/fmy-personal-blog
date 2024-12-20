@@ -44,5 +44,6 @@ Ikuti langkah-langkah berikut untuk melihat proyek ini di komputer Anda:
    ```bash
    git clone https://github.com/fmy150504/fmy-personal-blog.git
 2. Masuk ke folder proyek:
+   ```bash
    cd YSS-Portfolio
-3. Buka file index.html di browser.
+4. Buka file index.html di browser.
