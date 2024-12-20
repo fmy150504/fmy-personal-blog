@@ -63,7 +63,7 @@ Ikuti langkah-langkah berikut untuk melihat proyek ini di komputer Anda:
    ```
 3. Buka file `index.html` di browser.
 
-Atau, kunjungi [YSS Portfolio](https://fmy150504.github.io/fmy-personal-blog/) untuk melihat versi live dari proyek ini.
+Atau, kunjungi [Farhan Portfolio](https://fmy150504.github.io/fmy-personal-blog/) untuk melihat versi live dari proyek ini.
 
 ---
 
@@ -95,8 +95,8 @@ Ingin berkontribusi? Berikut caranya:
 
 ## 🤝 Kontak
 - **Email**: fmy150504@gmail.com
-- **LinkedIn**: [Profil LinkedIn Anda](https://www.linkedin.com/in/farhan-muhammad-yasin-aa905a241/)
-- **GitHub**: [@username](https://github.com/fmy150504)
+- **LinkedIn**: [Farhan Muhammad Yasin](https://www.linkedin.com/in/farhan-muhammad-yasin-aa905a241/)
+- **GitHub**: [@fmy150504](https://github.com/fmy150504)
 
 ---
 
