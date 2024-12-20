@@ -1,0 +1,176 @@
+/* Reset margin dan padding default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content layout */
+#content {
+    display: flex; /* Gunakan Flexbox */
+    justify-content: space-between; /* Atur jarak antar kolom */
+    max-width: 1200px; /* Batasi lebar maksimal */
+    margin: 20px auto; /* Tengah halaman */
+    gap: 20px; /* Jarak antar kolom */
+    padding: 10px;
+}
+
+/* Styling untuk About */
+#about {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#about p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styling untuk Projects */
+#projects {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#projects li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#projects li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Styling untuk Contact Me */
+#contact {
+    max-width: 800px; /* Lebar maksimal form */
+    margin: 40px auto; /* Tengah halaman dengan jarak ke atas */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Jarak antar elemen form */
+}
+
+#contact label {
+    font-weight: bold;
+    color: #555;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #content {
+        flex-direction: column;
+    }
+}
