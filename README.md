@@ -74,25 +74,6 @@ Atau, kunjungi [Farhan Portfolio](https://fmy150504.github.io/fmy-personal-blog/
 
 ---
 
-## 🖊️ Kontribusi
-Ingin berkontribusi? Berikut caranya:
-1. Fork repository ini.
-2. Buat branch baru untuk fitur Anda:
-   ```bash
-   git checkout -b nama-fitur
-   ```
-3. Commit perubahan Anda:
-   ```bash
-   git commit -m "Menambahkan fitur baru"
-   ```
-4. Push branch Anda:
-   ```bash
-   git push origin nama-fitur
-   ```
-5. Buat **Pull Request**.
-
----
-
 ## 🤝 Kontak
 - **Email**: fmy150504@gmail.com
 - **LinkedIn**: [Farhan Muhammad Yasin](https://www.linkedin.com/in/farhan-muhammad-yasin-aa905a241/)
