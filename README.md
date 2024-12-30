@@ -43,7 +43,7 @@ YSS-Portfolio/
 │
 ├── index.html       # Halaman utama
 ├── about.html       # Halaman About
-├── footer.html       # Komponen Footer
+├── footer.html      # Komponen Footer
 ├── style.css        # File CSS untuk styling
 ├── script.js        # File JavaScript untuk interaksi
 └── README.md        # Dokumentasi proyek
