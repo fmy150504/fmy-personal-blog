@@ -61,7 +61,11 @@ Ikuti langkah-langkah berikut untuk melihat proyek ini di komputer Anda:
    ```bash
    cd fmy-personal-blog
    ```
-3. Buka file `index.html` di browser.
+3. Jalankan menggunakan python:
+   ```bash
+   python -m http.server
+   ```
+4. Buka di browser `http://localhost:8000/`.
 
 Atau, kunjungi [Farhan Portfolio](https://fmy150504.github.io/fmy-personal-blog/) untuk melihat versi live dari proyek ini.
 
