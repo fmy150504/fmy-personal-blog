@@ -33,7 +33,7 @@ Membangun portfolio pribadi untuk menampilkan:
 ![Portfolio Desktop Preview](https://via.placeholder.com/800x400)  
 
 **Tampilan Mobile**  
-![Portfolio Mobile Preview](https://via.placeholder.com/400x800)
+![Portfolio Mobile Preview](https://drive.google.com/file/d/1RjhBajn8nG_nQCZ0C1N-vDlXULvTOSnP/view?usp=sharing)
 
 ---
 
