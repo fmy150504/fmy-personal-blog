@@ -30,7 +30,7 @@ Membangun portfolio pribadi untuk menampilkan:
 
 ## 📷 Preview
 **Tampilan Desktop**  
-![Portfolio Desktop Preview](https://via.placeholder.com/800x400)  
+![Portfolio Desktop Preview](https://drive.google.com/uc?export=view&id=1VZHCucfnvqn0h6zvR9I81kjZdDh1IQf7)
 
 **Tampilan Mobile**  
 ![Portfolio Mobile Preview](https://drive.google.com/uc?export=view&id=1RjhBajn8nG_nQCZ0C1N-vDlXULvTOSnP)
