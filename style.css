@@ -72,33 +72,33 @@ header nav ul li a:hover {
     color: #555;
 }
 
-/* Styling untuk Projects */
-#projects {
-    flex: 1;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 #projects ul {
-    list-style: none;
+    list-style: none; /* Menghapus bullet */
     padding: 0;
     margin: 0;
 }
 
 #projects li {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin: 15px 0; /* Jarak antar item */
 }
 
-#projects li:hover {
-    background-color: #e0e0e0;
-    cursor: pointer;
+#projects li a {
+    display: block; /* Membuat seluruh kotak klikable */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah */
+    padding: 20px; /* Tambahkan ruang di dalam kotak */
+    border-radius: 10px; /* Membuat sudut kotak melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    text-align: center; /* Pusatkan teks */
+    transition: all 0.3s ease; /* Tambahkan animasi */
+}
+
+#projects li a:hover {
+    background-color: #007BFF; /* Ubah warna saat di-hover */
+    color: white; /* Ubah warna teks saat di-hover */
+    transform: scale(1.05); /* Perbesar sedikit */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar */
 }
 
 /* Styling untuk Contact Me */
