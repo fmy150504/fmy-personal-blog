@@ -39,12 +39,16 @@ Membangun portfolio pribadi untuk menampilkan:
 
 ## 📂 Struktur Folder
 ```
-YSS-Portfolio/
+FMY-Portfolio/
 │
 ├── index.html       # Halaman utama
+├── index.css        # CSS Halaman utama
 ├── about.html       # Halaman About
-├── footer.html      # Komponen Footer
-├── style.css        # File CSS untuk styling
+├── about.css        # CSS Halaman About
+├── project.html     # Halaman Project
+├── project.css      # CSS Halaman Project
+├── contact.html     # Halaman Contact
+├── contact.css      # CSS Halaman Contact
 ├── script.js        # File JavaScript untuk interaksi
 └── README.md        # Dokumentasi proyek
 ```
