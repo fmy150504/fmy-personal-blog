@@ -56,11 +56,11 @@ Ikuti langkah-langkah berikut untuk melihat proyek ini di komputer Anda:
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/fmy150504/fmy-personal-blog.git
+   git clone https://github.com/fmy150504/fmy-personal-web.git
    ```
 2. Masuk ke folder proyek:
    ```bash
-   cd fmy-personal-blog
+   cd fmy-personal-web
    ```
 3. Jalankan menggunakan python:
    ```bash
@@ -68,7 +68,7 @@ Ikuti langkah-langkah berikut untuk melihat proyek ini di komputer Anda:
    ```
 4. Buka di browser `http://localhost:8000/`.
 
-Atau, kunjungi [Farhan Portfolio](https://fmy150504.github.io/fmy-personal-blog/) untuk melihat versi live dari proyek ini.
+Atau, kunjungi [Farhan Portfolio](https://fmy150504.github.io/fmy-personal-web/) untuk melihat versi live dari proyek ini.
 
 ---
 
