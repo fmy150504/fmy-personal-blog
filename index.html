@@ -23,86 +23,100 @@
     </header>
 
     <section id="content">
-        <!-- Welcome Section -->
-        <section id="welcome">
-            <h2>Welcome to My Portfolio</h2>
-            <p>
-                Hi! I'm Farhan Muhammad Yasin, a passionate developer specializing in web and mobile app development. Take a look at my work and feel free to reach out!
-            </p>
-        </section>
+        <!-- Sidebar Kiri -->
+        <aside class="sidebar-left">
+            <h3>Quote</h3>
+            <blockquote>
+                "Code is like humor. When you have to explain it, it’s bad."
+            </blockquote>
+        </aside>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills & Expertise</h2>
-            <ul>
-                <li>Web Development (HTML, CSS, JavaScript, React)</li>
-                <li>Mobile App Development (React Native, Kotlin)</li>
-                <li>Game Development (Unity)</li>
-                <li>Backend Development (Node.js, Firebase)</li>
-            </ul>
-        </section>
+        <!-- Konten Utama -->
+         <main>
+            <!-- Welcome Section -->
+            <section id="welcome">
+                <h2>Welcome to My Portfolio</h2>
+                <p>
+                    Hi! I'm Farhan Muhammad Yasin, a passionate developer specializing in web and mobile app development. Take a look at my work and feel free to reach out!
+                </p>
+            </section>
 
-        <!-- Featured Projects Section -->
-        <div id="projects">
-            <h2>Featured Projects</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/fmy150504/FlappyMyers" target="_blank">
-                        <img src="project1.png" alt="Flappy Myers Screenshot" class="project-image">
-                        <h3>Flappy Myers</h3>
-                        <p>Game 2D Android - Built with Unity</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/example/project2" target="_blank">
-                        <img src="project2.png" alt="Todo App Screenshot" class="project-image">
-                        <h3>Todo App</h3>
-                        <p>Web Application - React + Firebase</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/example/project3" target="_blank">
-                        <img src="project3.png" alt="Weather App Screenshot" class="project-image">
-                        <h3>Weather App</h3>
-                        <p>React Native - Real-time Weather</p>
-                    </a>
-                </li>
-            </ul>
-            <a href="project.html" id="view-all">View All Projects</a>
-        </div>
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2>Skills & Expertise</h2>
+                <ul>
+                    <li>Web Development (HTML, CSS, JavaScript, React)</li>
+                    <li>Mobile App Development (React Native, Kotlin)</li>
+                    <li>Game Development (Unity)</li>
+                    <li>Backend Development (Node.js, Firebase)</li>
+                </ul>
+            </section>
 
-        <!-- Call-to-Action Section -->
-        <section id="cta">
-            <h2>What Can I Do for You?</h2>
-            <p>
-                Looking for a dedicated developer for your next project? Let’s work together to bring your ideas to life!
-            </p>
-            <a href="#contact" class="cta-button">Hire Me</a>
-        </section>
+            <!-- Call-to-Action Section -->
+            <section id="cta">
+                <h2>What Can I Do for You?</h2>
+                <p>
+                    Looking for a dedicated developer for your next project? Let’s work together to bring your ideas to life!
+                </p>
+                <a href="#contact" class="cta-button">Hire Me</a>
+            </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
-        </section>
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Sidebar Kanan -->
+        <aside class="sidebar-right">
+            <div id="container">
+                <h2>Featured Projects</h2>
+                <div class="box">
+                    <div class="box-content">
+                        <a href="https://github.com/fmy150504/FlappyMyers" target="_blank">
+                            <h3>Flappy Myers</h3>
+                            <p>Game 2D Android - Built with Unity</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <a href="https://github.com/example/project2" target="_blank">
+                            <h3>Todo App</h3>
+                            <p>Web Application - React + Firebase</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <a href="https://github.com/example/project3" target="_blank">
+                            <h3>Weather App</h3>
+                            <p>React Native - Real-time Weather</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="project.html" id="view-all">View All Projects</a>
+            </div>
+        </aside>        
     </section>
 
     <footer>
         <p>&copy; 2024 Y.Sin Solivagant</p>
         <div class="social-icons">
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/farhan-muhammad-yasin-aa905a241/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/fmy150504" target="_blank">GitHub</a>
             <a href="mailto:email@example.com">Email</a>
         </div>
     </footer>
