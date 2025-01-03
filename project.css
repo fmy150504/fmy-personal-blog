@@ -1,0 +1,141 @@
+/* Reset margin dan padding default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    background-color: #F5F5F5; /* Latar belakang utama */
+    color: #333333; /* Teks utama */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background: #F9FAFB; /* Abu terang */
+    color: #333333; /* Teks */
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0; /* Garis pemisah */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007ACC; /* Warna aksen */
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #007ACC; /* Warna link */
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #E0E0E0; /* Abu terang saat hover */
+    color: #005F99; /* Biru gelap */
+}
+
+/* Content Section */
+#content {
+    flex: 1;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    color: #007ACC; /* Warna aksen */
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#projects ul li {
+    background-color: #FFFFFF; /* Putih bersih */
+    color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+#projects ul li a {
+    text-decoration: none;
+    color: #007ACC; /* Warna aksen */
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+#projects ul li:hover {
+    transform: scale(1.05); /* Sedikit membesar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects ul li a:hover {
+    color: #005F99; /* Biru gelap */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: #FFFFFF; /* Putih bersih */
+    color: #333333; /* Teks utama */
+    padding: 20px 0;
+    border-top: 1px solid #E0E0E0; /* Garis pemisah */
+    font-size: 0.9rem;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: #007ACC; /* Warna aksen */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #005F99; /* Biru gelap saat hover */
+}

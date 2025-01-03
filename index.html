@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Farhan Muhammad Yasin - Personal Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan Muhammad Yasin - Personal Website</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -14,21 +16,31 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="project.html">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section id="content">
-        <!-- About Me Section -->
-        <div id="about">
-            <h2>About Me</h2>
-            <div class="about-container">
-                <img src="avatar.png" alt="Profile Picture" class="avatar">
-                <p>Hello! I'm a passionate developer building my first portfolio. I specialize in web and mobile app development.</p>
-            </div>
-        </div>
+        <!-- Welcome Section -->
+        <section id="welcome">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                Hi! I'm Farhan Muhammad Yasin, a passionate developer specializing in web and mobile app development. Take a look at my work and feel free to reach out!
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills & Expertise</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript, React)</li>
+                <li>Mobile App Development (React Native, Kotlin)</li>
+                <li>Game Development (Unity)</li>
+                <li>Backend Development (Node.js, Firebase)</li>
+            </ul>
+        </section>
 
         <!-- Featured Projects Section -->
         <div id="projects">
@@ -59,8 +71,17 @@
             <a href="project.html" id="view-all">View All Projects</a>
         </div>
 
+        <!-- Call-to-Action Section -->
+        <section id="cta">
+            <h2>What Can I Do for You?</h2>
+            <p>
+                Looking for a dedicated developer for your next project? Let’s work together to bring your ideas to life!
+            </p>
+            <a href="#contact" class="cta-button">Hire Me</a>
+        </section>
+
         <!-- Contact Section -->
-        <div id="contact">
+        <section id="contact">
             <h2>Contact Me</h2>
             <form>
                 <label for="name">Name:</label>
@@ -74,7 +95,7 @@
                 
                 <button type="submit">Send</button>
             </form>
-        </div>
+        </section>
     </section>
 
     <footer>
