@@ -1,4 +1,4 @@
-# Farhan Portfolio 🌟
+# Farhan Personal Web 🌟
 Selamat datang di portfolio saya! 🎉  
 Proyek ini adalah representasi dari perjalanan saya sebagai pengembang web, menunjukkan keterampilan dan proyek yang telah saya kerjakan.
 
